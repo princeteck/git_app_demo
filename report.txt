@@ -1,0 +1,251 @@
+===================================================================
+### Project Cleaned ###
+===================================================================
+Deleting build...                                                    3ms
+Deleting .dart_tool...                                              21ms
+Deleting Generated.xcconfig...                                       0ms
+Deleting flutter_export_environment.sh...                            0ms
+Deleting .flutter-plugins-dependencies...                            0ms
+Deleting .flutter-plugins...                                         0ms
+===================================================================
+### Calling Pub Get ###
+===================================================================
+Running "flutter pub get" in git_app...                             3.2s
+===================================================================
+### Generate Localization files ###
+===================================================================
+===================================================================
+### Running Build Runner for Models and Retrofit ###
+===================================================================
+[INFO] Generating build script...
+[INFO] Generating build script completed, took 389ms
+
+[INFO] Precompiling build script......
+[INFO] Precompiling build script... completed, took 5.8s
+
+[INFO] Initializing inputs
+[INFO] Building new asset graph...
+[INFO] Building new asset graph completed, took 847ms
+
+[INFO] Checking for unexpected pre-existing outputs....
+[INFO] Deleting 22 declared outputs which already existed on disk.
+[INFO] Checking for unexpected pre-existing outputs. completed, took 4ms
+
+[INFO] Running build...
+[INFO] Generating SDK summary...
+[INFO] 1.9s elapsed, 0/16 actions completed.
+[INFO] 3.3s elapsed, 0/16 actions completed.
+[INFO] Generating SDK summary completed, took 3.9s
+
+[INFO] 5.0s elapsed, 26/42 actions completed.
+[INFO] 6.0s elapsed, 29/45 actions completed.
+[INFO] 11.7s elapsed, 29/45 actions completed.
+[INFO] 15.8s elapsed, 31/47 actions completed.
+[INFO] 16.8s elapsed, 57/72 actions completed.
+[INFO] 18.2s elapsed, 62/78 actions completed.
+[INFO] 19.3s elapsed, 82/97 actions completed.
+[INFO] Running build completed, took 19.7s
+
+[INFO] Caching finalized dependency graph...
+[INFO] Caching finalized dependency graph completed, took 80ms
+
+[INFO] Succeeded after 19.8s with 34 outputs (230 actions)
+
+===================================================================
+### Creating Launcher Icons assets ###
+===================================================================
+  ════════════════════════════════════════════
+     FLUTTER LAUNCHER ICONS (v0.10.0)                               
+  ════════════════════════════════════════════
+  
+• Creating default icons Android
+• Overwriting the default Android launcher icon with a new icon
+Creating Icons for Web...
+Creating Icons for Windows...
+
+✓ Successfully generated launcher icons
+===================================================================
+### Reporting code metrics, rules and anti-patterns violations ###
+===================================================================
+[2K⠙ Analyzing...[2K[2K⠹ Analyzing 46 file(s)... 0.6s[2K⠸ Analyzing 46 file(s)... 10.1s[2K⠼ Analyzing 46 file(s)... 13.2s[2K⠴ Analyzing 46 file(s)... 13.2s[2K⠦ Analyzing 46 file(s)... 13.3s[2K⠧ Analyzing 46 file(s)... 13.4s[2K⠇ Analyzing 46 file(s)... 13.4s[2K⠏ Analyzing 46 file(s)... 13.5s[2K⠋ Analyzing 46 file(s)... 13.6s[2K⠙ Analyzing 46 file(s)... 13.7s[2K⠹ Analyzing 46 file(s)... 13.8s[2K⠸ Analyzing 46 file(s)... 13.9s[2K⠼ Analyzing 46 file(s)... 13.9s[2K⠴ Analyzing 46 file(s)... 14.0s[2K⠦ Analyzing 46 file(s)... 14.1s[2K⠧ Analyzing 46 file(s)... 14.2s[2K✔ Analysis is completed. Preparing the results: 14.2s
+
+lib\src\core\cubit\network\connectivity\connectivity_cubit.dart:
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\core\cubit\network\connectivity\connectivity_cubit.dart:33:5
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+
+lib\src\core\data\repositories\common\error_handler.dart:
+STYLE   Block is empty. Empty blocks are often indicators of missing code.
+        at C:\Dev\app\flutter\git_app\lib\src\core\data\repositories\common\error_handler.dart:21:14
+        no-empty-block : https://dartcodemetrics.dev/docs/rules/common/no-empty-block
+
+
+lib\src\helpers\shared_preferences.dart:
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\helpers\shared_preferences.dart:18:5
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\helpers\shared_preferences.dart:50:5
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+
+lib\src\views\screens\auth\login_screen.dart:
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\auth\login_screen.dart:74:15
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+
+lib\src\views\screens\common\splash_screen.dart:
+STYLE   Comparing boolean values to boolean literals is unnecessary, as those expressions will result in booleans too. Just use the boolean values directly or negate them.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\common\splash_screen.dart:33:9
+        no-boolean-literal-compare : https://dartcodemetrics.dev/docs/rules/common/no-boolean-literal-compare
+
+
+lib\src\views\screens\core\git_app_main.dart:
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\core\git_app_main.dart:20:5
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+STYLE   Block is empty. Empty blocks are often indicators of missing code.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\core\git_app_main.dart:22:34
+        no-empty-block : https://dartcodemetrics.dev/docs/rules/common/no-empty-block
+
+
+lib\src\views\screens\dashboard\dashboard_screen.dart:
+STYLE   Prefer conditional expression.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:38:7
+        prefer-conditional-expressions : https://dartcodemetrics.dev/docs/rules/common/prefer-conditional-expressions
+
+STYLE   Block is empty. Empty blocks are often indicators of missing code.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:44:19
+        no-empty-block : https://dartcodemetrics.dev/docs/rules/common/no-empty-block
+
+        Long method. This method contains 94 lines with code.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:56:3
+        long-method : https://dartcodemetrics.dev/docs/anti-patterns/long-method
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:57:40
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:59:5
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:157:5
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+STYLE   Block is empty. Empty blocks are often indicators of missing code.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:159:34
+        no-empty-block : https://dartcodemetrics.dev/docs/rules/common/no-empty-block
+
+STYLE   Comparing boolean values to boolean literals is unnecessary, as those expressions will result in booleans too. Just use the boolean values directly or negate them.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:183:33
+        no-boolean-literal-compare : https://dartcodemetrics.dev/docs/rules/common/no-boolean-literal-compare
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:267:39
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:271:39
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:301:19
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:302:23
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:309:31
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:314:39
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:325:33
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:328:39
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:334:29
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\dashboard\dashboard_screen.dart:336:33
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+
+lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:28:36
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+STYLE   Block is empty. Empty blocks are often indicators of missing code.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:36:34
+        no-empty-block : https://dartcodemetrics.dev/docs/rules/common/no-empty-block
+
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:57:21
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:59:45
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:65:25
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:85:43
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:94:29
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:99:37
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+ERROR   Prefer trailing comma.
+        at C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_commit\repo_commits_screen.dart:103:37
+        prefer-trailing-comma : https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma
+
+WARNING _RepoCommitsScreenState.build
+        cyclomatic complexity: 22
+
+
+lib\src\views\widgets\drawer\menu_drawer.dart:
+STYLE   Missing blank line before return.
+        at C:\Dev\app\flutter\git_app\lib\src\views\widgets\drawer\menu_drawer.dart:15:5
+        newline-before-return : https://dartcodemetrics.dev/docs/rules/common/newline-before-return
+
+STYLE   Block is empty. Empty blocks are often indicators of missing code.
+        at C:\Dev\app\flutter\git_app\lib\src\views\widgets\drawer\menu_drawer.dart:17:34
+        no-empty-block : https://dartcodemetrics.dev/docs/rules/common/no-empty-block
+
+
+===================================================================
+### Checks unused *.dart files ###
+===================================================================
+[2K⠙ Checking unused files...[2K⠹ Checking unused files... 9.1s[2K⠸ Checking unused files... 12.1s[2K⠼ Checking unused files... 12.2s[2K⠴ Checking unused files... 12.2s[2K⠦ Checking unused files... 12.3s[2K⠧ Checking unused files... 12.4s[2K⠇ Checking unused files... 12.5s[2K⠏ Checking unused files... 12.6s[2K⠋ Checking unused files... 12.7s[2K⠙ Checking unused files... 12.7s[2K⠹ Checking unused files... 12.8s[2K⠸ Checking unused files... 12.9s[2K⠼ Checking unused files... 13.0s[2K⠴ Checking unused files... 13.2s[2K⠦ Checking unused files... 13.2s[2K⠧ Checking unused files... 13.3s[2K⠇ Checking unused files... 13.4s[2K⠏ Checking unused files... 13.5s[2K⠋ Checking unused files... 13.5s[2K✔ Analysis is completed. Preparing the results: 13.6s
+
+⚠ unused file: C:\Dev\app\flutter\git_app\lib\src\views\screens\repo\repo_details\repo_details_screen.dart
+
+✖ total unused files - 1
+===================================================================
+### Init Process Completed ###
+===================================================================

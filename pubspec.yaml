@@ -1,0 +1,77 @@
+name: git_app
+description: A Flutter Demo project for Git App Demo.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.3
+  collection: ^1.16.0
+  connectivity_plus: ^3.0.2
+
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  fade_shimmer: ^2.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_launcher_icons: ^0.10.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_pretty_dio_logger: ^2.0.2
+  freezed: ^2.3.2
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  github_sign_in: ^0.0.5-dev.4
+  intl: ^0.17.0
+  json_annotation: ^4.7.0
+  retrofit: ^3.3.1
+  shared_preferences: ^2.0.15
+  uih: ^1.0.3
+  flutter_svg: ^1.1.6
+  bot_toast: ^4.0.3
+
+dev_dependencies:
+  build_runner: ^2.3.2
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.4.1
+  retrofit_generator: ^4.1.0+1
+  dart_code_metrics: ^5.2.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/launcher_icon/licon.png"
+  web:
+    generate: false
+  windows:
+    generate: false
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/launcher_icons/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
