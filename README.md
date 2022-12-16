@@ -29,3 +29,9 @@ Tools • Dart 2.18.2 • DevTools 2.15.0
 ```
 > init.sh
 ```
+
+## NOTE
+
+1) Please refer `Flutter CookBook` on how to run the project.
+2) Shortest way is, after running `init.sh` script file, press `F5` on keyboard.
+3) Or you can also use `flutter run` command for the same as it will automatically detect the devices and give you option of running it on the device. No Need to mention platform as its option and will pickup your chosen platform in the environment. 
