@@ -318,6 +318,7 @@ class _DashboardScreenState extends State<DashboardScreen>
                                   decoration: const InputDecoration(
                                       labelText: 'Search By User Name',
                                       hintText: 'eg. freeCodeCamp'),
+                                  style: context.theme.textTheme.bodyMedium,
                                   onChanged: (val) {
                                     SingletonStorage().userName = val;
                                   },
