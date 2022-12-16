@@ -59,7 +59,11 @@ class _RepoCommitsScreenState extends State<RepoCommitsScreen> {
                             horizontal: 20, vertical: 10),
                         padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                          border: Border.all(),
+                          border: Border.all(
+                            color: context.brightness == Brightness.light
+                                ? Colors.black87
+                                : Colors.white,
+                          ),
                           borderRadius: BorderRadius.circular(5),
                         ),
                         child: Column(
@@ -73,7 +77,13 @@ class _RepoCommitsScreenState extends State<RepoCommitsScreen> {
                                   child: Text(
                                     record.commit?.message ?? "",
                                     style: context.theme.textTheme.subtitle1
-                                        ?.copyWith(fontWeight: FontWeight.bold),
+                                        ?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                      color:
+                                          context.brightness == Brightness.light
+                                              ? Colors.black
+                                              : Colors.white,
+                                    ),
                                   ),
                                 ),
                                 Text(

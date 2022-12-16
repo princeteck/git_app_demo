@@ -69,9 +69,12 @@ class _DashboardScreenState extends State<DashboardScreen>
         margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
         padding: const EdgeInsets.all(15),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(5),
-          border: Border.all(),
-        ),
+            borderRadius: BorderRadius.circular(5),
+            border: Border.all(
+              color: context.brightness == Brightness.light
+                  ? Colors.black87
+                  : Colors.white,
+            )),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -125,6 +128,9 @@ class _DashboardScreenState extends State<DashboardScreen>
                       SvgPicture.asset(
                         AppIcons.fork,
                         width: context.theme.textTheme.caption?.fontSize,
+                        color: context.brightness == Brightness.light
+                            ? Colors.black87
+                            : Colors.white,
                       ),
                       Text(
                         record.forks.toString(),
