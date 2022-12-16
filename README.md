@@ -23,3 +23,9 @@ Framework • revision 6928314d50 (7 weeks ago) • 2022-10-25 16:34:41 -0400
 Engine • revision 3ad69d7be3
 Tools • Dart 2.18.2 • DevTools 2.15.0
 ```
+
+## Run init.sh first time to generate necessary files for project to run.
+
+```
+> init.sh
+```
